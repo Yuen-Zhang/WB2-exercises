@@ -1,4 +1,4 @@
-"use strict"
+"use strict";
 //set assets and debts
 let myAssets = 300000;
 let myDebts = 10000;
