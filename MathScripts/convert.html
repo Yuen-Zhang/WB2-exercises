@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Fahrenheit calculator</h1>
+
+    Enter a value for Fahrenheit to convert to Celcius
+    <label for="inputFahrenheit">Enter Fahrenheit amount </label>
+    <input type="text" name="display" id="inputFahrenheit">
+    <button id="btnCalculate" onclick="ConvertToCelsius()">Convert to Celcius</button>
+
+    <h1>Celcius: <br>
+        <div id="resultC">
+
+        </div>
+    </h1>
+<hr>
+    <h1>Celsius calculator</h1>
+
+    Enter a value for Celsius to convert to Fahrenheit
+    <label for="inputCelsius">Enter Fahrenheit amount </label>
+    <input type="text" name="display" id="inputCelsius">
+    <button id="btnCalculateF" onclick="ConvertToFahrenheit()">Convert to Fahrenheit</button>
+
+    <h1>Fahrenheit: <br>
+        <div id="resultF">
+
+        </div>
+    </h1>
+
+
+
+
+    <script src="f_to_c.js"></script>
+    <script src="c_to_f.js"></script>
+</body>
+
+</html>
